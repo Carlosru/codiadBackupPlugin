@@ -1,0 +1,10 @@
+[ { "author" : "CARU",
+    "version": "0.1",
+    "name" : "Backup Plugin",
+    "url" : "https://",
+    "rightbar" : [{
+        "action" : "codiad.backup.commit();",
+        "icon" : "icon-palette",
+        "title" : "Backup Plugin"
+        }]
+  } ]
