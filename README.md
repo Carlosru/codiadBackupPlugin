@@ -6,7 +6,8 @@ Codiad Plugin to create zip files to backup a codiad project on the web editor <
 1.Clone or Download this plugin and left the BackupPlugin directory inside the codiad/plugins directory.
 
 2.You will need to create a directory with read write permisions , not only with chmod else using selinux command semanage to let Apache write on a directory you specify for example /home/backup/, you will have to:</br></br>
- menu thar appears at right 
+
+
 #semanage fcontext -a -t httpd_sys_rw_content_t "/home/backup(/.*)?"</br>
 #restorecon -R -v /home/backup</br></br></br>
 
